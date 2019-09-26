@@ -40,6 +40,22 @@ body{
 
 }
 
+.clearcanvas{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1d1d3b;
+    padding: 3px;
+    border: none;
+}
+
+.clearcanvas:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
 #canvas{
     position: fixed;
     top: 50%;
